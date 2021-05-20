@@ -36,7 +36,7 @@ const HeroSection = () => {
             primary="true"
             dark="true"
           >
-            Contact me {hover ? <ArrowForward /> : <ArrowRight />}
+            Kontakt mig {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
           <Button to="contact" onMouseEnter={onHover2} onMouseLeave={onHover2}>
             Download CV {hover2 ? <ArrowForward /> : <ArrowRight />}

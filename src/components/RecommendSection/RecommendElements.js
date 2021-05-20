@@ -7,9 +7,10 @@ export const RecommendContainer = styled.div`
   color: #fff;
   height: 860px;
   background: ${({ lightBg }) => (lightBg ? "#f9f9f9" : "#010606")};
+  padding: 100 0px;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 0 24px;
   }
 `;
 
