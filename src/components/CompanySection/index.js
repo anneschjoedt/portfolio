@@ -15,7 +15,7 @@ import {
 const CompanySection = () => {
   return (
     <CompanyContainer>
-      <CompanyH1>Jeg har samarbejdet med</CompanyH1>
+      <CompanyH1>Mine samarbejdspartnere</CompanyH1>
       <CompanyWrapper>
         <CompanyIcon src={Icon1} />
         <CompanyIcon src={Icon2} />

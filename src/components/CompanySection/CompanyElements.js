@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const CompanyContainer = styled.div`
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   z-index: 1;
-  height: 300px;
+  height: 250px;
   width: 100%;
   max-width: 1100px;
   margin-left: auto;
@@ -17,7 +19,7 @@ export const CompanyH1 = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  padding: 20px;
+  padding: 10px;
   color: "#010606";
 `;
 
