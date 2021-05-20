@@ -24,7 +24,7 @@ export const homeObjTwo = {
   headLine: "En uforpligtende snak",
   description:
     "Skal du bruge hjælp til en opgave? Tøv ikke med at tage fat i mig, så ser vi på, om jeg er den rette til opgaven.",
-  buttonLabel: "Kontakt mig her",
+  buttonLabel: "Send mig en email",
   alt: "Tine",
   dark: false,
   primary: false,
