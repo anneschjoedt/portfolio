@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import RecommendSection from "../components/RecommendSection";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ const Home = () => {
       <RecommendSection {...RecommendObjOne} />
       <Services />
       <InfoSection {...homeObjTwo} />
+      <Footer />
     </>
   );
 };
