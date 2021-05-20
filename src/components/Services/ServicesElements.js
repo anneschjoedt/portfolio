@@ -9,7 +9,7 @@ export const ServicesContainer = styled.div`
   background: #f9f9f9;
 
   @media screen and (max-width: 768px) {
-    height: 1200px;
+    height: 1500px;
   }
 
   @media screen and (max-width: 480px) {
@@ -68,6 +68,7 @@ export const ServicesH1 = styled.h1`
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
+    padding-left: 20px;
   }
 `;
 
