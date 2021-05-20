@@ -39,7 +39,7 @@ const Navbar = ({ toggle }) => {
           <NavLogo to="/" onClick={toggleHome}>
             Schjødt Social
           </NavLogo>
-          <MobileIcon onClick={toggleHome}>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

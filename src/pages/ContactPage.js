@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Kontakt from "../components/Kontakt";
+import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 
-const ContaktPage = () => {
+const ContactPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -14,9 +14,9 @@ const ContaktPage = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <Kontakt />
+      <Contact />
     </>
   );
 };
 
-export default ContaktPage;
+export default ContactPage;

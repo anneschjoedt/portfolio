@@ -10,9 +10,9 @@ import {
   FormInput,
   FormButton,
   Text,
-} from "./KontaktElements";
+} from "./ContactElements";
 
-const Kontakt = () => {
+const Contact = () => {
   return (
     <Container>
       <FormWrap>
@@ -33,4 +33,4 @@ const Kontakt = () => {
   );
 };
 
-export default Kontakt;
+export default Contact;
