@@ -4,38 +4,37 @@ import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 export const HeroContainer = styled.div`
   background: #6c78b5;
   display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 0 30px;
-  height: 100%;
-  max-width: 1800px;
+  height: 800px;
+  position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 480px) {
+    height: 600px;
+  }
 `;
 
 export const HeroBg = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* top: 0;
+  position: absolute;
+  top: 0;
   right: 0;
   bottom: 0;
-  left: 0; */
-  /* width: 100%; */
+  left: 0;
+  width: 100%;
   height: 100%;
-  /* overflow: hidden; */
-  /* z-index: 2; */
-  object-fit: cover;
+  overflow: hidden;
 `;
 
 export const HeroContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 1200px; */
+  max-width: 1200px;
   padding: 8px 24px;
   flex-direction: column;
-  /* z-index: 2; */
+  z-index: 2;
 `;
 
 export const HeroH1 = styled.h1`
@@ -74,7 +73,11 @@ export const HeroBtnWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    height: 100px;
+  }
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

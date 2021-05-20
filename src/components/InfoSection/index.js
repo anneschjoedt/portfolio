@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ButtonElements";
-import socialMediaImg from "../../images/svg-1.svg";
 
 import {
   InfoContainer,
@@ -31,7 +30,7 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
-  visibility,
+  img,
 }) => {
   return (
     <>
@@ -62,7 +61,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={socialMediaImg} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

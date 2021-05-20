@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 800px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #f9f9f9;
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -63,7 +63,7 @@ export const ServicesIcon = styled.img`
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #010606;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {

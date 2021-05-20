@@ -28,14 +28,14 @@ const Services = () => {
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
+          <ServicesIcon src={Icon3} />
           <ServicesH2>Indholdsproduktion</ServicesH2>
           <ServicesP>
             Tekstforfatning og projektledelse af grafisk indhold
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon2} />
           <ServicesH2>Annoncekampagner</ServicesH2>
           <ServicesP>
             Opsætning, optimering og rapportering af annoncekampagner på
