@@ -24,7 +24,7 @@ export const FormWrap = styled.div`
   justify-content: center;
 
   @media screen and (max-width: 400px) {
-    height: 80%;
+    height: 95%;
   }
 `;
 
@@ -89,6 +89,18 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+`;
+
+export const FormInputMessage = styled.textarea`
+  padding: 16px 16px;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 4px;
+  height: 150px;
+
+  @media screen and (max-width: 400px) {
+    height: 100px;
+  }
 `;
 
 export const FormButton = styled.button`

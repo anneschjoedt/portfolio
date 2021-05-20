@@ -42,12 +42,12 @@ const Footer = () => {
             </SocialLogo>
             <WebsiteRights>
               <FooterLink href="//anneschjoedt.github.io/">
-                website by Anne Schjødt
+                Website af Anne Schjødt
               </FooterLink>{" "}
               © {new Date().getFullYear()} Schjødt Social{" "}
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink to="/kontakt" target="_blank" arial-label="Email">
+              <SocialIconLink to="/contact" target="_blank" arial-label="Email">
                 <FaEnvelope />
               </SocialIconLink>
               <SocialIconLink

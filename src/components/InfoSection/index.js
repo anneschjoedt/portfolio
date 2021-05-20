@@ -31,6 +31,7 @@ const InfoSection = ({
   dark,
   dark2,
   img,
+  toLink,
 }) => {
   return (
     <>
@@ -44,7 +45,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    to={toLink}
                     smooth={true}
                     duration={500}
                     spy={true}

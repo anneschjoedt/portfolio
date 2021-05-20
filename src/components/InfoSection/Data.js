@@ -13,6 +13,7 @@ export const homeObjOne = {
   primary: false,
   darkText: true,
   img: require("../../images/svg-1.svg").default,
+  toLink: "/cv",
 };
 
 export const homeObjTwo = {
@@ -30,4 +31,5 @@ export const homeObjTwo = {
   primary: false,
   darkText: true,
   img: require("../../images/coffee.svg").default,
+  toLink: "/contact",
 };
