@@ -17,14 +17,19 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroBg = styled.div`
-  position: absolute;
+  display: flex;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  width: 40%;
+  height: auto;
+  overflow: visible;
+  /* background-color: red; */
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const HeroContent = styled.div`
@@ -47,7 +52,7 @@ export const HeroH1 = styled.h1`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 40px;
   }
 `;
 
@@ -63,7 +68,7 @@ export const HeroP = styled.p`
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 `;
 

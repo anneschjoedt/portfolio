@@ -24,7 +24,9 @@ const HeroSection = () => {
   };
   return (
     <HeroContainer id="home">
-      <HeroBg>{/* <img src={Heroimage} alt="portræt af Tine" /> */}</HeroBg>
+      <HeroBg>
+        <img src={Heroimage} alt="portræt af Tine" />
+      </HeroBg>
       <HeroContent>
         <HeroH1>Tine Schjødt</HeroH1>
         <HeroP>Specialist i digitale kampagner</HeroP>

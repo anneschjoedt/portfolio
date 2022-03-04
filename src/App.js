@@ -10,7 +10,10 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/CV" component={CV} exact />
+        <Route
+          path="/https://drive.google.com/file/d/1ICiiXHZpFM-pPBWI_kL3oYsx_NITGTxI/view"
+          exact
+        />
         <Route path="/contact" component={Contact} exact />
       </Switch>
     </Router>

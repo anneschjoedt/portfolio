@@ -70,10 +70,10 @@ const Navbar = ({ toggle }) => {
                 Ydelser
               </NavLinks>
             </NavItem>
+            <NavBtn>
+              <NavBtnLink to="/contact">Kontakt</NavBtnLink>
+            </NavBtn>
           </NavMenu>
-          <NavBtn>
-            <NavBtnLink to="/contact">Kontakt</NavBtnLink>
-          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
