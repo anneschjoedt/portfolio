@@ -8,6 +8,7 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarRoute,
+  CVLink,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -19,13 +20,18 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="about" onClick={toggle}>
-            Om mig
+            About me
           </SidebarLink>
-          <SidebarLink to="/CV" onClick={toggle}>
+          <CVLink
+            href="https://www.canva.com/design/DAFhAx_xiaY/view"
+            target="_blank"
+            arial-label="CV"
+          >
+            {" "}
             CV
-          </SidebarLink>
+          </CVLink>
           <SidebarLink to="services" onClick={toggle}>
-            Ydelser
+            Projects
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>

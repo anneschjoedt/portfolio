@@ -38,31 +38,21 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
-              Schjødt Social
+              Anne Schjødt
             </SocialLogo>
             <WebsiteRights>
-              <FooterLink href="//anneschjoedt.github.io/">
-                Website af Anne Schjødt
-              </FooterLink>{" "}
-              © {new Date().getFullYear()} Schjødt Social{" "}
+              website by me © {new Date().getFullYear()}{" "}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink to="/contact" target="_blank" arial-label="Email">
                 <FaEnvelope />
               </SocialIconLink>
               <SocialIconLink
-                href="//www.linkedin.com/in/tineschjoedt/"
+                href="//www.linkedin.com/in/anneschjoedt/"
                 target="_blank"
                 arial-label="LinkedIn"
               >
                 <FaLinkedin />
-              </SocialIconLink>
-              <SocialIconLink
-                href="//twitter.com/tineschjoedt?lang=da"
-                target="_blank"
-                arial-label="Twitter"
-              >
-                <FaTwitter />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

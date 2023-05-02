@@ -1,12 +1,14 @@
 import styled from "styled-components";
+import image from "../../images/jobspire/jobspire.svg";
 
 export const ServicesContainer = styled.div`
-  height: 900px;
+  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #f9f9f9;
+  padding-top: 200px;
 
   @media screen and (max-width: 768px) {
     height: 1500px;
@@ -18,7 +20,7 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1000px;
+  max-width: 1800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,16 +39,18 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-  background: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  height: 300px;
-  padding: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-radius: 10px; */
+  height: 450px;
+  width: 500px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
+  overflow: no;
 
   &:hover {
     transform: scale(1.02);
@@ -55,10 +59,17 @@ export const ServicesCard = styled.div`
   }
 `;
 
+export const ServiceCardWrap = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+`;
+
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  background-size: 300px 100px;
+  padding: 30px;
 `;
 
 export const ServicesH1 = styled.h1`
@@ -73,11 +84,18 @@ export const ServicesH1 = styled.h1`
 `;
 
 export const ServicesH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 15px;
   margin-bottom: 10px;
+  margin-top: 30px;
+  color: #2f2e41;
 `;
 
 export const ServicesP = styled.p`
-  font-size: 1rem;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 50px;
+`;
+
+export const ServiceTextWrap = styled.div`
+  background-color: white;
 `;

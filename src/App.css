@@ -2,5 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: local("wotfard-regular-webfont"),url("./fonts/wotfard-regular-webfont.ttf") format("truetype");
 }

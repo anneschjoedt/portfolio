@@ -3,7 +3,8 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: ${({ scrollNav }) => (scrollNav ? "#6c78b5" : "transparent")};
+  /* backdrop-filter: ${({ scrollNav }) =>
+    scrollNav ? "blur(5px)" : "transparent"}; */
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -30,14 +31,14 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-  color: #fff;
+  color: #010606;
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-left: 25px;
-  font-weight: bold;
+  font-weight: normal;
   text-decoration: none;
 `;
 
@@ -52,11 +53,14 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: #010606;
   }
 `;
 
 export const NavMenu = styled.ul`
+  backdrop-filter: ${({ scrollNav }) =>
+    scrollNav ? "blur(5px)" : "transparent"};
+  border-radius: 80px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -73,12 +77,28 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-  color: #fff;
+  color: #010606;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 3px solid #01bf71;
+  }
+`;
+
+export const CVLink = styled.a`
+  color: #010606;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  outline: none;
+  border: none;
   cursor: pointer;
 
   &.active {
@@ -96,20 +116,25 @@ export const NavBtn = styled.nav`
 `;
 export const NavBtnLink = styled(LinkR)`
   border-radius: 20px;
-  background: #fff;
+  border: 1px solid #010606;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #6c78b5;
+  color: #010606;
   font-size: 16px;
   outline: none;
-  border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+    background: #010606;
+    color: #f6f6f6;
   }
+`;
+
+export const SocialIconLink = styled.a`
+  color: #010606;
+  font-size: 24px;
+  padding: 10px 22px;
 `;

@@ -3,7 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages";
 import CV from "./pages/CVPage";
-import Contact from "./components/Contact";
+import Contact from "./pages/ContactPage";
+import "./fonts/wotfard-regular-webfont.ttf";
 
 function App() {
   return (

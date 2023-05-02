@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
+import Footer from "../components/Footer";
 
 const ContactPage = () => {
   const [isOpen, setIsOpen] = useState(false);

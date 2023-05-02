@@ -104,7 +104,10 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 80px;
+  @media screen and (max-width: 420px) {
+    width: 5px;
+  }
 `;
 
 export const SocialIconLink = styled.a`

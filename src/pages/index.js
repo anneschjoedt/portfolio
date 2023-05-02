@@ -9,6 +9,7 @@ import RecommendSection from "../components/RecommendSection";
 import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
+import Jobspire from "../components/Jobspire";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,8 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      {/* <CompanySection /> */}
+      <Jobspire />
+      <CompanySection />
       <InfoSection {...homeObjOne} />
       <RecommendSection {...RecommendObjOne} />
       <Services />

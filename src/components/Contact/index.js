@@ -13,6 +13,7 @@ import {
   FormButton,
   Text,
 } from "./ContactElements";
+import Navbar from "../Navbar";
 
 const Contact = () => {
   function sendEmail(e) {
@@ -38,18 +39,17 @@ const Contact = () => {
   return (
     <Container>
       <FormWrap>
-        <Icon to="/">Schjødt Social</Icon>
         <FormContent>
           <Form action="#" onSubmit={sendEmail}>
-            <FormH1>Send mig en email</FormH1>
+            <FormH1>Send me an email</FormH1>
 
-            <FormLabel htmlFor="for">Dit navn</FormLabel>
+            <FormLabel htmlFor="for">Your name</FormLabel>
             <FormInput type="text" name="from_name" required></FormInput>
 
-            <FormLabel htmlFor="for">Din email</FormLabel>
+            <FormLabel htmlFor="for">Your email</FormLabel>
             <FormInput type="email" name="user_email" required></FormInput>
 
-            <FormLabel htmlFor="for">Din besked</FormLabel>
+            <FormLabel htmlFor="for">Your message</FormLabel>
             <FormInputMessage name="message" required></FormInputMessage>
 
             <FormButton type="submit" value="Send">

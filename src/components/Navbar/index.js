@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
+import { FaLinkedin } from "react-icons/fa";
 import {
   Nav,
   NavbarContainer,
@@ -10,6 +11,8 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  SocialIconLink,
+  CVLink,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 
@@ -34,15 +37,15 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <Nav scrollNav={scrollNav}>
+      <Nav>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            Schjødt Social
+            Anne Schjødt
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          <NavMenu>
+          <NavMenu scrollNav={scrollNav}>
             <NavItem>
               <NavLinks
                 to="about"
@@ -52,11 +55,8 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Om mig
+                About
               </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="/cv">CV</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
@@ -67,12 +67,29 @@ const Navbar = ({ toggle }) => {
                 exact="true"
                 offset={-80}
               >
-                Ydelser
+                Work
               </NavLinks>
             </NavItem>
+            <NavItem>
+              <CVLink
+                href="https://www.canva.com/design/DAFhAx_xiaY/view"
+                target="_blank"
+                arial-label="CV"
+              >
+                {" "}
+                CV
+              </CVLink>
+            </NavItem>
             <NavBtn>
-              <NavBtnLink to="/contact">Kontakt</NavBtnLink>
+              <NavBtnLink to="/contact">Contact</NavBtnLink>
             </NavBtn>
+            <SocialIconLink
+              href="//www.linkedin.com/in/anneschjoedt/"
+              target="_blank"
+              arial-label="LinkedIn"
+            >
+              <FaLinkedin />
+            </SocialIconLink>
           </NavMenu>
         </NavbarContainer>
       </Nav>

@@ -1,8 +1,10 @@
 import React from "react";
-import Icon1 from "../../images/svg-2.svg";
-import Icon2 from "../../images/svg-3.svg";
-import Icon3 from "../../images/svg-4.svg";
-import Icon4 from "../../images/svg-5.svg";
+import Icon3 from "../../images/aben/logo-grey.svg";
+import Icon2 from "../../images/annoanno/logo-white.svg";
+import annoanno from "../../images/annoanno/annoanno.png";
+import jobspire from "../../images/jobspire/jobspire-illustration.png";
+import background from "../../images/aben/desktop-top.png";
+import mathscamp from "../../images/mathscamp/desktop-mc.png";
 
 import {
   ServicesContainer,
@@ -12,44 +14,57 @@ import {
   ServicesIcon,
   ServicesH2,
   ServicesP,
+  ServiceTextWrap,
+  ServiceCardWrap,
 } from "./ServicesElements";
 
 const Services = () => {
   return (
     <ServicesContainer id="services">
-      <ServicesH1>Mine spidskompetencer</ServicesH1>
+      <ServicesH1>Work</ServicesH1>
       <ServicesWrapper>
-        <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Strategi og planlægning</ServicesH2>
+        <ServiceCardWrap>
+          <ServicesCard
+            style={{
+              backgroundImage: `url(${jobspire})`,
+            }}
+          />
+          <ServicesH2>Jobspire</ServicesH2>
+          <ServicesP>Concept development • wireframing • prototyping</ServicesP>
+        </ServiceCardWrap>
+        <ServiceCardWrap>
+          <ServicesCard
+            style={{
+              backgroundColor: "#F09491",
+            }}
+          >
+            {" "}
+            <ServicesIcon src={Icon2} />
+          </ServicesCard>
+
+          <ServicesH2>AnnóAnno</ServicesH2>
+          <ServicesP>Concept development • wireframing • prototyping</ServicesP>
+        </ServiceCardWrap>
+        <ServiceCardWrap>
+          <ServicesCard
+            style={{
+              backgroundImage: `url(${mathscamp})`,
+            }}
+          />
+          <ServicesH2>Maths Camps</ServicesH2>
           <ServicesP>
-            Strategi, planlægning, udvikling af kampagner og indhold til sociale
-            medier
+            Desk research • usertest • UI design • React development
           </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon3} />
-          <ServicesH2>Indholdsproduktion</ServicesH2>
-          <ServicesP>
-            Tekstforfatning og projektledelse af grafisk indhold
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Annoncekampagner</ServicesH2>
-          <ServicesP>
-            Opsætning, optimering og rapportering af annoncekampagner på
-            Facebook, Instagram, LinkedIn og Twitter
-          </ServicesP>
-        </ServicesCard>
-        <ServicesCard>
-          <ServicesIcon src={Icon4} />
-          <ServicesH2>Web-redigering</ServicesH2>
-          <ServicesP>
-            Opdatering af hjemmeside inkl. tekst og light billedredigering til
-            web
-          </ServicesP>
-        </ServicesCard>
+        </ServiceCardWrap>
+        <ServiceCardWrap>
+          <ServicesCard
+            style={{
+              backgroundImage: `url(${background})`,
+            }}
+          />
+          <ServicesH2>Åben</ServicesH2>
+          <ServicesP>Frontend development</ServicesP>
+        </ServiceCardWrap>
       </ServicesWrapper>
     </ServicesContainer>
   );
