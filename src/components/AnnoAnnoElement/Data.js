@@ -1,0 +1,17 @@
+export const homeObjTwo = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  projectTitle: "AnnóAnno",
+  year: 2022,
+  deliverable3: "Concept development",
+  deliverable1: "UX design",
+  deliverable2: "UI design",
+  buttonLabel: "Visit Website",
+  dark: false,
+  primary: false,
+  darkText: true,
+  img: require("../../images/annoanno/annoanno-desktop.png").default,
+  img2: require("../../images/annoanno/annoanno-mobiles.png").default,
+  img3: require("../../images/annoanno/page.png").default,
+};

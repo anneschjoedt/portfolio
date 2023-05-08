@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import jobspire from "../../images/jobspire/jobspire-illustration.png";
+import jobspire from "../../images/jobspire/jobspire-prototype.png";
+import { animateScroll as scroll } from "react-scroll";
+import { Button } from "../ButtonElements";
 
 import {
   ServicesContainer,
@@ -11,39 +13,40 @@ import {
   ServicesP,
   ServiceTextWrap,
   ServiceCardWrap,
+  handleMouseOver,
 } from "./ServicesElements";
 
 const Services = () => {
-  const [isHovering, setIsHovering] = useState(false);
-  const handleMouseOver = () => {
-    setIsHovering(true);
+  const [hover, setHover] = useState(false);
+  const onHover = () => {
+    setHover(true);
   };
 
-  const handleMouseOut = () => {
-    setIsHovering(false);
+  const onLeave = () => {
+    setHover(false);
   };
+
+  const goToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <ServicesContainer id="services">
-      <ServicesWrapper>
-        <ServiceCardWrap
-          onMouseOver={handleMouseOver}
-          onMouseOut={handleMouseOut}
-        >
-          <ServicesCard
-            style={{
-              backgroundImage: `url(${jobspire})`,
-            }}
-          />
-          {isHovering && (
-            <div>
+      <ServicesCard
+        onMouseEnter={onHover}
+        onMouseLeave={onLeave}
+        to="/jobspire"
+        onClick={goToTop}
+      >
+        {hover ? (
+          <Button to="/jobspire" onClick={goToTop}>
+            <ServiceTextWrap>
               <ServicesH2>Jobspire</ServicesH2>
-              <ServicesP>
-                Concept development • wireframing • prototyping
-              </ServicesP>
-            </div>
-          )}
-        </ServiceCardWrap>
-      </ServicesWrapper>
+              <ServicesP>UX & UI design</ServicesP>
+            </ServiceTextWrap>
+          </Button>
+        ) : null}
+      </ServicesCard>
     </ServicesContainer>
   );
 };

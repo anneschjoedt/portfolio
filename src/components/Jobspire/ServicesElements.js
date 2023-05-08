@@ -1,8 +1,10 @@
 import styled from "styled-components";
-import image from "../../images/jobspire/jobspire.svg";
+import image from "../../images/jobspire/jobspire-prototype.png";
+import { Link } from "react-router-dom";
 
 export const ServicesContainer = styled.div`
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,16 +12,17 @@ export const ServicesContainer = styled.div`
   padding-top: 50px;
 
   @media screen and (max-width: 768px) {
-    height: 1500px;
+    height: 100%;
+    width: 100%;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1500px;
+    height: 100%;
+    width: 100%;
   }
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -37,19 +40,29 @@ export const ServicesWrapper = styled.div`
   }
 `;
 
-export const ServicesCard = styled.div`
+export const ServicesCard = styled(Link)`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* border-radius: 10px; */
-  height: 600px;
-  width: 800px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-size: contain;
+  height: 469px;
+  width: 750px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   transition: all 0.2s ease-in-out;
   overflow: no;
+  background-image: url(${image});
+  text-decoration: none;
+
+  @media screen and (max-width: 768px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 300px;
+    height: 200px;
+  }
 
   &:hover {
     transform: scale(1.02);
@@ -61,7 +74,7 @@ export const ServicesCard = styled.div`
 export const ServiceCardWrap = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
 `;
 
 export const ServicesIcon = styled.img`
@@ -84,17 +97,19 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesH2 = styled.h2`
   font-size: 15px;
-  /* margin-bottom: 10px; */
-  /* margin-top: 30px; */
-  color: #2f2e41;
+  color: white;
 `;
 
 export const ServicesP = styled.p`
   font-size: 18px;
-  text-align: left;
-  margin-bottom: 50px;
+  color: white;
 `;
 
 export const ServiceTextWrap = styled.div`
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 20px;
+  transition: all 0.8s ease;
 `;

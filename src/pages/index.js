@@ -10,6 +10,8 @@ import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import Jobspire from "../components/Jobspire";
+import AnnoAnno from "../components/AnnoAnno";
+import Aben from "../components/Aben";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +26,11 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <Jobspire />
+      <AnnoAnno />
+      <Aben />
       <CompanySection />
       <InfoSection {...homeObjOne} />
       <RecommendSection {...RecommendObjOne} />
-      <Services />
       <InfoSection {...homeObjTwo} />
       <Footer />
     </>

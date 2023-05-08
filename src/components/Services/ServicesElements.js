@@ -20,7 +20,7 @@ export const ServicesContainer = styled.div`
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1800px;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -45,12 +45,12 @@ export const ServicesCard = styled.div`
   align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-radius: 10px; */
-  height: 450px;
-  width: 500px;
+  height: 150px;
+  max-width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   overflow: no;
+  background-position: center;
 
   &:hover {
     transform: scale(1.02);
@@ -66,7 +66,7 @@ export const ServiceCardWrap = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  width: 100%;
+  max-width: 100%;
   backdrop-filter: blur(10px);
   background-size: 300px 100px;
   padding: 30px;

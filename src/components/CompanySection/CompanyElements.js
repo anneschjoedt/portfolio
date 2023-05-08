@@ -10,7 +10,7 @@ export const CompanyContainer = styled.div`
   /* max-width: 1100px; */
   margin-left: auto;
   margin-right: auto;
-  padding: 0 24px;
+  padding: 278px 0;
   justify-content: center;
   background: #ffffff;
 `;
@@ -25,21 +25,27 @@ export const CompanyH1 = styled.p`
 `;
 
 export const CompanyWrapper = styled.div`
-  max-width: 100%;
-  margin: 0 auto;
   display: flex;
-  align-items: stretch;
-  grid-gap: 16px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60%;
+  margin: 0 auto;
   padding: 0 50px;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 
   @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
     padding: 0 20px;
   }
 `;
 
 export const CompanyIcon = styled.img`
+  height: 40px;
+  margin: 10px;
+`;
+
+export const IconDiv = styled.img`
   height: 50px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
 `;

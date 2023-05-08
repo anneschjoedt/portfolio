@@ -71,7 +71,7 @@ export const FormH1 = styled.h1`
 
 export const FormLabel = styled.label`
   margin-bottom: 8px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 `;
 

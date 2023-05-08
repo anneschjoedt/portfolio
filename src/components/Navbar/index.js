@@ -9,6 +9,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavLink,
   NavBtn,
   NavBtnLink,
   SocialIconLink,
@@ -35,6 +36,14 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
 
+  const goToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  const goToProjects = () => {
+    scroll.scrollTo(734);
+  };
+
   return (
     <>
       <Nav>
@@ -45,30 +54,16 @@ const Navbar = ({ toggle }) => {
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
-          <NavMenu scrollNav={scrollNav}>
+          <NavMenu>
             <NavItem>
-              <NavLinks
-                to="about"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                About
-              </NavLinks>
+              <NavLink onClick={goToProjects} to="/">
+                Projects
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLinks
-                to="services"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Work
-              </NavLinks>
+              <NavLink onClick={goToTop} to="/about">
+                About
+              </NavLink>
             </NavItem>
             <NavItem>
               <CVLink

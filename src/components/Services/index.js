@@ -38,7 +38,6 @@ const Services = () => {
               backgroundColor: "#F09491",
             }}
           >
-            {" "}
             <ServicesIcon src={Icon2} />
           </ServicesCard>
 

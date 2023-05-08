@@ -5,17 +5,13 @@ import { FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
 import {
   FooterContainer,
   FooterWrap,
-  FooterLinksContainer,
-  FooterLinkTitle,
-  FooterLinksWrapper,
-  FooterLink,
-  FooterLinkItems,
   SocialLogo,
   SocialIcons,
   SocialMedia,
   SocialMediaWrap,
   WebsiteRights,
   SocialIconLink,
+  ContactLink,
 } from "./FooterElements";
 
 const Footer = () => {
@@ -25,28 +21,16 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        {/* <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Schjødt Social</FooterLinkTitle>
-              <FooterLink to="/kontakt">Send email</FooterLink>
-              <FooterLink href="">LinkedIn</FooterLink>
-              <FooterLink href="">Twitter</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/" onClick={toggleHome}>
               Anne Schjødt
             </SocialLogo>
-            <WebsiteRights>
-              website by me © {new Date().getFullYear()}{" "}
-            </WebsiteRights>
+            <WebsiteRights>Available for freelance projects</WebsiteRights>
             <SocialIcons>
-              <SocialIconLink to="/contact" target="_blank" arial-label="Email">
+              <ContactLink to="/contact" arial-label="Email">
                 <FaEnvelope />
-              </SocialIconLink>
+              </ContactLink>
               <SocialIconLink
                 href="//www.linkedin.com/in/anneschjoedt/"
                 target="_blank"

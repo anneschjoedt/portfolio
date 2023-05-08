@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #6c78b5;
+  background: #ffffff;
   display: grid;
   align-items: center;
   top: 0;
@@ -19,7 +19,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #010606;
 `;
 
 export const Icon = styled.div`
@@ -47,7 +47,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
-export const SidebarLink = styled(LinkS)`
+export const SidebarLink = styled(LinkR)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ export const SidebarLink = styled(LinkS)`
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #fff;
+  color: #010606;
   cursor: pointer;
 
   &:hover {
@@ -72,21 +72,21 @@ export const SideBtnWrap = styled.div`
 
 export const SidebarRoute = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
   white-space: nowrap;
   padding: 16px 64px;
-  color: #fff;
-  font-size: 16px;
+  font-size: 1.5rem;
   outline: none;
-  border: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  background: #010606;
+  color: #f6f6f6;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    border: 1px solid #010606;
     color: #010606;
+    background: transparent;
   }
 `;
 
@@ -99,9 +99,20 @@ export const CVLink = styled.a`
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #fff;
+  color: #010606;
   cursor: pointer;
 
+  &:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+  }
+`;
+
+export const SocialIconLink = styled.a`
+  color: #010606;
+  font-size: 1.5rem;
+  padding: 10px 22px;
+  text-decoration: none;
   &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;

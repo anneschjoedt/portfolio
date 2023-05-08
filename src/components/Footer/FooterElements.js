@@ -106,11 +106,16 @@ export const SocialIcons = styled.div`
   align-items: center;
   width: 80px;
   @media screen and (max-width: 420px) {
-    width: 5px;
+    width: 80px;
   }
 `;
 
 export const SocialIconLink = styled.a`
+  color: #fff;
+  font-size: 24px;
+`;
+
+export const ContactLink = styled(Link)`
   color: #fff;
   font-size: 24px;
 `;

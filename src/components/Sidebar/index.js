@@ -1,4 +1,6 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
+import { FaLinkedin } from "react-icons/fa";
 import {
   SidebarContainer,
   Icon,
@@ -9,9 +11,13 @@ import {
   SideBtnWrap,
   SidebarRoute,
   CVLink,
+  SocialIconLink,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
+  const goToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -19,8 +25,8 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About me
+          <SidebarLink to="/about" onClick={goToTop}>
+            About
           </SidebarLink>
           <CVLink
             href="https://www.canva.com/design/DAFhAx_xiaY/view"
@@ -30,12 +36,18 @@ const Sidebar = ({ isOpen, toggle }) => {
             {" "}
             CV
           </CVLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Projects
-          </SidebarLink>
+          <SocialIconLink
+            href="//www.linkedin.com/in/anneschjoedt/"
+            target="_blank"
+            arial-label="LinkedIn"
+          >
+            LinkedIn
+          </SocialIconLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contact">Kontakt</SidebarRoute>
+          <SidebarRoute to="/contact" onClick={goToTop}>
+            Contact
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
