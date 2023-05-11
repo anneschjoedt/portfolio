@@ -13,6 +13,4 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
-  img: require("../../images/aben/desktop-top2.png").default,
-  img2: require("../../images/aben/page.png").default,
 };

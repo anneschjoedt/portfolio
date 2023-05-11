@@ -1,20 +1,7 @@
 import React, { useState } from "react";
 import img from "../../images/aben/days-logo.webp";
 import img2 from "../../images/aben/o-logo.webp";
-import { Button } from "../ButtonElements";
-import {
-  HeroContainer,
-  ImgWrap,
-  Img,
-  HeroBg,
-  HeroContent,
-  HeroH1,
-  HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
-  Logo,
-} from "./HeroElements";
+import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
 
 const HeroSection = () => {
   return (

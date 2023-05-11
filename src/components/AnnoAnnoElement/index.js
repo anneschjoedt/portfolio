@@ -1,6 +1,8 @@
 import React from "react";
-import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
+import img from "../../images/annoanno/annoanno-desktop.png";
+import img2 from "../../images/annoanno/annoanno-mobiles.png";
+import img3 from "../../images/annoanno/page.png";
 
 import {
   InfoContainer,
@@ -10,9 +12,7 @@ import {
   Column2,
   TextWrapper,
   TopLine,
-  Heading,
   Subtitle,
-  BtnWrap,
   ImgWrap,
   Img,
   ProjectLink,
@@ -22,17 +22,12 @@ import {
 
 const InfoSection = ({
   lightBg,
-  imgStart,
   projectTitle,
   deliverable1,
   deliverable2,
   deliverable3,
   darkText,
   year,
-  alt,
-  img,
-  img2,
-  img3,
 }) => {
   const goToTop = () => {
     window.scrollTo(0, 0);
@@ -70,21 +65,21 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} />
+                <Img src={img} alt={"website and mobile view"} />
               </ImgWrap>
             </Column2>
           </InfoRow>
           <InfoRow>
             <Column1>
               <ImgWrap>
-                <Img src={img2} />
+                <Img src={img2} alt={"mobile view"} />
               </ImgWrap>
             </Column1>
           </InfoRow>
           <InfoRow>
             <Column2>
               <ImgWrap>
-                <Img src={img3} />
+                <Img src={img3} alt={"website view"} />
               </ImgWrap>
             </Column2>
           </InfoRow>
