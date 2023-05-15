@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-import CompanySection from "../components/CompanySection";
 import AbenHeroSection from "../components/AbenHeroSection";
-import InfoSection from "../components/InfoSection";
 import { homeObjTwo } from "../components/AbenElement/Data";
-import { RecommendObjOne } from "../components/RecommendSection/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";

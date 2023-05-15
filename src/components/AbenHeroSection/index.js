@@ -8,8 +8,8 @@ const HeroSection = () => {
     <HeroContainer>
       <HeroContent>
         <ImgWrap>
-          <Img src={img2} />
-          <Img src={img} />
+          <Img src={img2} style={{ height: "220px", Maxwidth: "180px" }} />
+          <Img src={img} style={{ height: "200px", Maxwidth: "400px" }} />
         </ImgWrap>
       </HeroContent>
     </HeroContainer>

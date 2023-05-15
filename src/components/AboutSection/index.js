@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import img from "../../images/hero-img.png";
 
 import {
   InfoContainer,
@@ -29,13 +29,7 @@ const InfoSection = ({
   headLine,
   darkText,
   description,
-  buttonLabel,
   alt,
-  primary,
-  dark,
-  dark2,
-  img,
-  toLink,
 }) => {
   return (
     <>
@@ -45,7 +39,6 @@ const InfoSection = ({
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                {/* <Heading lightText={lightText}>{headLine}</Heading> */}
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <CVLink
@@ -53,7 +46,6 @@ const InfoSection = ({
                     target="_blank"
                     arial-label="CV"
                   >
-                    {" "}
                     View my CV
                   </CVLink>
                 </BtnWrap>
