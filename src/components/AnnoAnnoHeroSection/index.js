@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import img from "../../images/annoanno/logo-annoanno.svg";
-import { Button } from "../ButtonElements";
 import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
 
 const HeroSection = () => {

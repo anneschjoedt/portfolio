@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { FaLinkedin } from "react-icons/fa";
 import {
@@ -8,7 +8,6 @@ import {
   MobileIcon,
   NavMenu,
   NavItem,
-  NavLinks,
   NavLink,
   NavBtn,
   NavBtnLink,
@@ -18,19 +17,19 @@ import {
 import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false);
+  // const [scrollNav, setScrollNav] = useState(false);
 
-  const changeNav = () => {
-    if (window.scrollY >= 80) {
-      setScrollNav(true);
-    } else {
-      setScrollNav(false);
-    }
-  };
+  // const changeNav = () => {
+  //   if (window.scrollY >= 80) {
+  //     setScrollNav(true);
+  //   } else {
+  //     setScrollNav(false);
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", changeNav);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", changeNav);
+  // }, []);
 
   const toggleHome = () => {
     scroll.scrollToTop();

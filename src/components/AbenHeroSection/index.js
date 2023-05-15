@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import img from "../../images/aben/days-logo.webp";
 import img2 from "../../images/aben/o-logo.webp";
 import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";

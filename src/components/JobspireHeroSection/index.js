@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import img from "../../images/jobspire/jobspire.svg";
 import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
 
