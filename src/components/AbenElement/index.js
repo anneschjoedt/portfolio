@@ -16,9 +16,9 @@ import {
   Img,
   NextProjectLink,
   LinkWrap,
-} from "./InfoElements";
+} from "./AbenElements";
 
-const InfoSection = ({
+const AbenElement = ({
   lightBg,
   imgStart,
   projectTitle,
@@ -94,4 +94,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default AbenElement;

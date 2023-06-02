@@ -7,9 +7,9 @@ import {
   ServicesH2,
   ServicesP,
   ServiceTextWrap,
-} from "./ServicesElements";
+} from "./JobspireElements";
 
-const Services = () => {
+const Jobspire = () => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
     setHover(true);
@@ -44,4 +44,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Jobspire;

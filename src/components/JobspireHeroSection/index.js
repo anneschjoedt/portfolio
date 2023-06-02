@@ -1,8 +1,13 @@
 import React from "react";
 import img from "../../images/jobspire/jobspire.svg";
-import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
+import {
+  HeroContainer,
+  ImgWrap,
+  Img,
+  HeroContent,
+} from "./JobspireHeroElements";
 
-const HeroSection = () => {
+const JobspireHeroSection = () => {
   return (
     <HeroContainer>
       <HeroContent>
@@ -14,4 +19,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default JobspireHeroSection;

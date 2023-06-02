@@ -1,9 +1,9 @@
 import React from "react";
 import img from "../../images/aben/days-logo.webp";
 import img2 from "../../images/aben/o-logo.webp";
-import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
+import { HeroContainer, ImgWrap, Img, HeroContent } from "./AbenHeroElements";
 
-const HeroSection = () => {
+const AbenHeroSection = () => {
   return (
     <HeroContainer>
       <HeroContent>
@@ -16,4 +16,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default AbenHeroSection;

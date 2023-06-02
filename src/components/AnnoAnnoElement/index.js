@@ -20,7 +20,7 @@ import {
   LinkWrap,
 } from "./InfoElements";
 
-const InfoSection = ({
+const AnnoAnnoElement = ({
   lightBg,
   projectTitle,
   deliverable1,
@@ -108,4 +108,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default AnnoAnnoElement;

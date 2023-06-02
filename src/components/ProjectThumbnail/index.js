@@ -7,9 +7,9 @@ import {
   ServicesH2,
   ServicesP,
   ServiceTextWrap,
-} from "./AbenElements";
+} from "./ThumbnailElements";
 
-const Aben = () => {
+const Services = () => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
     setHover(true);
@@ -44,4 +44,4 @@ const Aben = () => {
   );
 };
 
-export default Aben;
+export default Services;

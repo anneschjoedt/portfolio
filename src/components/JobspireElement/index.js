@@ -22,7 +22,7 @@ import {
   LinkWrap,
 } from "./InfoElements";
 
-const InfoSection = ({
+const JobspireElement = ({
   lightBg,
   projectTitle,
   deliverable1,
@@ -115,4 +115,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default JobspireElement;

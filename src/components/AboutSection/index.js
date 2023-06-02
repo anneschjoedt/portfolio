@@ -18,9 +18,9 @@ import {
   Wrapper,
   CVLink,
   GreyText,
-} from "./InfoElements";
+} from "./AboutSectionElements";
 
-const InfoSection = ({
+const AboutSection = ({
   lightBg,
   id,
   imgStart,
@@ -95,4 +95,4 @@ const InfoSection = ({
   );
 };
 
-export default InfoSection;
+export default AboutSection;

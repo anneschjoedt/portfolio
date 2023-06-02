@@ -9,9 +9,9 @@ import {
   ServicesP,
   ServiceTextWrap,
   ServiceCardWrap,
-} from "./ServicesElements";
+} from "./AnnoAnnoElements";
 
-const Services = () => {
+const AnnoAnno = () => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
     setHover(true);
@@ -50,4 +50,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default AnnoAnno;
