@@ -1,5 +1,17 @@
-import React from "react";
-import { HeroContainer, HeroContent, HeroH1, HeroP } from "./HeroElements";
+import React, { useState } from "react";
+import Heroimage from "../../images/hero-image.png";
+import { Button } from "../ButtonElements";
+import {
+  HeroContainer,
+  HeroBg,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  HeroBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+  CVLink,
+} from "./HeroElements";
 
 const HeroSection = () => {
   return (

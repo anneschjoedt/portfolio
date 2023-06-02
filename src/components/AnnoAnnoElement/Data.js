@@ -11,4 +11,7 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
+  img: require("../../images/annoanno/annoanno-desktop.png").default,
+  img2: require("../../images/annoanno/annoanno-mobiles.png").default,
+  img3: require("../../images/annoanno/page.png").default,
 };

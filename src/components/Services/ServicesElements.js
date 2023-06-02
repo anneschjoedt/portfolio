@@ -1,32 +1,29 @@
 import styled from "styled-components";
-import image from "../../images/aben/image.png";
-import { Link } from "react-router-dom";
+import image from "../../images/jobspire/jobspire.svg";
 
 export const ServicesContainer = styled.div`
-  height: 100%;
-  width: 100%;
+  height: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  background: #f9f9f9;
+  padding-top: 200px;
 
   @media screen and (max-width: 768px) {
-    height: 100%;
-    width: 100%;
+    height: 1500px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 100%;
-    width: 100%;
+    height: 1500px;
   }
 `;
 
 export const ServicesWrapper = styled.div`
-  max-width: 1800px;
+  max-width: 100%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
@@ -41,29 +38,19 @@ export const ServicesWrapper = styled.div`
   }
 `;
 
-export const ServicesCard = styled(Link)`
+export const ServicesCard = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 500px;
-  width: 750px;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
+  background-size: cover;
+  height: 150px;
+  max-width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
   overflow: no;
-  background-image: url(${image});
-  text-decoration: none;
-
-  @media screen and (max-width: 768px) {
-    width: 500px;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 300px;
-    height: 200px;
-  }
+  background-position: center;
 
   &:hover {
     transform: scale(1.02);
@@ -79,7 +66,7 @@ export const ServiceCardWrap = styled.div`
 `;
 
 export const ServicesIcon = styled.img`
-  width: 100%;
+  max-width: 100%;
   backdrop-filter: blur(10px);
   background-size: 300px 100px;
   padding: 30px;
@@ -88,7 +75,7 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #010606;
-  /* margin-bottom: 64px; */
+  margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -98,19 +85,17 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesH2 = styled.h2`
   font-size: 15px;
-  color: white;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: #2f2e41;
 `;
 
 export const ServicesP = styled.p`
   font-size: 18px;
-  color: white;
+  text-align: left;
+  margin-bottom: 50px;
 `;
 
 export const ServiceTextWrap = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-content: space-around;
-  padding: 20px;
-  transition: all 0.8s ease;
+  background-color: white;
 `;

@@ -5,12 +5,15 @@ import {
   FormContent,
   FormWrap,
   Form,
+  Icon,
   FormH1,
   FormLabel,
   FormInput,
   FormInputMessage,
   FormButton,
+  Text,
 } from "./ContactElements";
+import Navbar from "../Navbar";
 
 const Contact = () => {
   function sendEmail(e) {

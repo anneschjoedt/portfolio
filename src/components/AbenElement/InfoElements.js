@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export const InfoContainer = styled.div`
   color: #fff;
-  max-width: 1800px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;

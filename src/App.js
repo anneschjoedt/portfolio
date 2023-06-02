@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages";
 import Contact from "./pages/ContactPage";
 import "./fonts/wotfard-regular-webfont.ttf";
@@ -11,7 +11,7 @@ import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/contact" element={<Contact />} exact />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/aben" element={<AbenProject />} exact />
         <Route path="/about" element={<AboutPage />} exact />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

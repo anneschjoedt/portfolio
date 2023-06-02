@@ -16,7 +16,6 @@ const ContactPage = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <Contact />
-      <Footer />
     </>
   );
 };

@@ -1,4 +1,6 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
+import { FaLinkedin } from "react-icons/fa";
 import {
   SidebarContainer,
   Icon,

@@ -1,6 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import img from "../../images/jobspire/jobspire.svg";
-import { HeroContainer, ImgWrap, Img, HeroContent } from "./HeroElements";
+import { Button } from "../ButtonElements";
+import {
+  HeroContainer,
+  ImgWrap,
+  Img,
+  HeroBg,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  HeroBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+  Logo,
+} from "./HeroElements";
 
 const HeroSection = () => {
   return (
