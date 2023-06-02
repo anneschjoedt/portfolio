@@ -1,19 +1,12 @@
 import React, { useState } from "react";
-import jobspire from "../../images/jobspire/jobspire-prototype.png";
-import { animateScroll as scroll } from "react-scroll";
 import { Button } from "../ButtonElements";
 
 import {
   ServicesContainer,
-  ServicesH1,
-  ServicesWrapper,
   ServicesCard,
-  ServicesIcon,
   ServicesH2,
   ServicesP,
   ServiceTextWrap,
-  ServiceCardWrap,
-  handleMouseOver,
 } from "./ServicesElements";
 
 const Services = () => {

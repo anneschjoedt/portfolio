@@ -6,7 +6,6 @@ import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
 import { RecommendObjOne } from "../components/RecommendSection/Data";
 import Navbar from "../components/Navbar";
 import RecommendSection from "../components/RecommendSection";
-import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import Jobspire from "../components/Jobspire";

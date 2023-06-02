@@ -1,5 +1,6 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import img from "../../images/aben/desktop-top2.png";
+import img2 from "../../images/aben/page.png";
 import { animateScroll as scroll } from "react-scroll";
 
 import {
@@ -10,12 +11,9 @@ import {
   Column2,
   TextWrapper,
   TopLine,
-  Heading,
   Subtitle,
-  BtnWrap,
   ImgWrap,
   Img,
-  ProjectLink,
   NextProjectLink,
   LinkWrap,
 } from "./InfoElements";
@@ -30,8 +28,6 @@ const InfoSection = ({
   darkText,
   year,
   alt,
-  img,
-  img2,
 }) => {
   const goToTop = () => {
     window.scrollTo(0, 0);

@@ -98,12 +98,11 @@ export const ImgWrap = styled.div`
   flex-direction: row;
   max-width: 855px;
   height: 100%;
+  align-items: flex-end;
 `;
 
 export const Img = styled.img`
-  width: 100%;
   padding-right: 0;
-  height: 200px;
   @media screen and (max-width: 768px) {
     height: 150px;
   }

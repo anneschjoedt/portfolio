@@ -1,6 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import { FaLinkedin, FaEnvelope, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 import {
   FooterContainer,

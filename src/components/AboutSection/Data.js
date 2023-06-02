@@ -12,6 +12,5 @@ export const homeObjOne = {
   dark: false,
   primary: false,
   darkText: true,
-  img: require("../../images/hero-img.png").default,
   toLink: "/cv",
 };

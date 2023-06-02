@@ -50,7 +50,6 @@ export const ServicesCard = styled(Link)`
   background-size: contain;
   height: 500px;
   width: 750px;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   transition: all 0.2s ease-in-out;
   overflow: no;
   background-image: url(${image});
@@ -88,7 +87,6 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #010606;
-  /* margin-bottom: 64px; */
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;

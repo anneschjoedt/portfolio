@@ -1,18 +1,12 @@
 import React, { useState } from "react";
 import { Button } from "../ButtonElements";
-import { animateScroll as scroll } from "react-scroll";
 
 import {
   ServicesContainer,
-  ServicesH1,
-  ServicesWrapper,
   ServicesCard,
-  ServicesIcon,
   ServicesH2,
   ServicesP,
   ServiceTextWrap,
-  ServiceCardWrap,
-  handleMouseOver,
 } from "./ServicesElements";
 
 const Services = () => {

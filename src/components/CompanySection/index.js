@@ -13,7 +13,6 @@ import {
   CompanyH1,
   CompanyWrapper,
   CompanyIcon,
-  RecommendContainer,
   IconDiv,
 } from "./CompanyElements";
 

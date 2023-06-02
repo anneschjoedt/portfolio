@@ -1,6 +1,9 @@
 import React from "react";
-import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
+import img from "../../images/jobspire/jobspire-desk.png";
+import img2 from "../../images/jobspire/mobile-img.png";
+import img3 from "../../images/jobspire/jobspire-desk3.png";
+import img4 from "../../images/jobspire/jobspire-mobile.png";
 
 import {
   InfoContainer,
@@ -11,9 +14,7 @@ import {
   Column2,
   TextWrapper,
   TopLine,
-  Heading,
   Subtitle,
-  BtnWrap,
   ImgWrap,
   Img,
   ProjectLink,
@@ -23,7 +24,6 @@ import {
 
 const InfoSection = ({
   lightBg,
-  imgStart,
   projectTitle,
   deliverable1,
   deliverable2,
@@ -31,10 +31,6 @@ const InfoSection = ({
   darkText,
   year,
   alt,
-  img,
-  img2,
-  img3,
-  img4,
 }) => {
   const goToTop = () => {
     window.scrollTo(0, 0);
