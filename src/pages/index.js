@@ -8,9 +8,11 @@ import Navbar from "../components/Navbar";
 import RecommendSection from "../components/RecommendSection";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import Jobspire from "../components/Jobspire";
-import AnnoAnno from "../components/AnnoAnno";
-import Aben from "../components/Aben";
+import Jobspire from "../components/Jobspire/JobspireCard";
+import AnnoAnno from "../components/AnnoAnno/AnnoAnnoCard";
+import Aben from "../components/Aben/AbenCard";
+import SleepersCard from "../components/Sleepers/SleepersCard";
+import { thumbnailObjOne } from "../components/Sleepers/SleepersCard/Data";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +26,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <SleepersCard {...thumbnailObjOne} />
       <Jobspire />
       <AnnoAnno />
       <Aben />

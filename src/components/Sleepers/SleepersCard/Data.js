@@ -1,0 +1,16 @@
+export const thumbnailObjOne = {
+  id: "sleepers",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "About me",
+  headLine: "Sleepers",
+  description: "Shopify development",
+  buttonLabel: "View my CV",
+  alt: "Anne",
+  dark: false,
+  primary: false,
+  darkText: true,
+  img: require("../../../images/about.svg").default,
+  toLink: "/sleepers",
+};

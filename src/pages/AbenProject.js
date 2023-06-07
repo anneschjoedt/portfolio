@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import AbenHeroSection from "../components/AbenHeroSection";
-import { homeObjTwo } from "../components/AbenElement/Data";
+import AbenHeroSection from "../components/Aben/AbenHeroSection";
+import { homeObjTwo } from "../components/Aben/AbenElement/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import AbenElement from "../components/AbenElement";
+import AbenElement from "../components/Aben/AbenElement";
 
 const AbenProject = () => {
   const [isOpen, setIsOpen] = useState(false);

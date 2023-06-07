@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import AnnoAnnoHeroSection from "../components/AnnoAnnoHeroSection";
-import { homeObjTwo } from "../components/AnnoAnnoElement/Data";
+import AnnoAnnoHeroSection from "../components/AnnoAnno/AnnoAnnoHeroSection";
+import { homeObjTwo } from "../components/AnnoAnno/AnnoAnnoElement/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import AnnoAnnoElement from "../components/AnnoAnnoElement";
+import AnnoAnnoElement from "../components/AnnoAnno/AnnoAnnoElement";
 
 const AnnoAnnoProject = () => {
   const [isOpen, setIsOpen] = useState(false);
