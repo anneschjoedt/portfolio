@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import AbenHeroSection from "../components/Aben/AbenHeroSection";
-import { homeObjTwo } from "../components/Aben/AbenElement/Data";
+import { homeObjTwo } from "../components/Sleepers/SleepersElement/Data";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import AbenElement from "../components/Aben/AbenElement";
+import SleepersElement from "../components/Sleepers/SleepersElement";
+import SleepersHeroSection from "../components/Sleepers/SleepersHeroSection";
 
 const SleepersProject = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +17,8 @@ const SleepersProject = () => {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-      <AbenHeroSection />
-      <AbenElement {...homeObjTwo} />
+      <SleepersHeroSection />
+      <SleepersElement {...homeObjTwo} />
       <Footer />
     </>
   );

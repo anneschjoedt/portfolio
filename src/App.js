@@ -8,6 +8,7 @@ import JobspireProject from "./pages/JobspireProject";
 import AnnoAnnoProject from "./pages/AnnoAnnoProject";
 import AbenProject from "./pages/AbenProject";
 import AboutPage from "./pages/AboutPage";
+import SleepersProject from "./pages/SleepersProject";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/annoanno" element={<AnnoAnnoProject />} exact />
         <Route path="/aben" element={<AbenProject />} exact />
         <Route path="/about" element={<AboutPage />} exact />
+        <Route path="/sleepers" element={<SleepersProject />} exact />
       </Routes>
     </BrowserRouter>
   );
