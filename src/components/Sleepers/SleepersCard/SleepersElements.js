@@ -45,7 +45,7 @@ export const ServicesCard = styled(Link)`
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 469px;
   width: 750px;
   /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
