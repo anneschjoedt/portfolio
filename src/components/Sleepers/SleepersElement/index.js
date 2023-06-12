@@ -8,7 +8,6 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column,
   Column1,
   Column2,
   TextWrapper,
@@ -19,7 +18,6 @@ import {
   ProjectLink,
   NextProjectLink,
   LinkWrap,
-  VideoWrap,
 } from "./InfoElements";
 
 const SleepersElement = ({
