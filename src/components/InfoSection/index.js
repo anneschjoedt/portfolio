@@ -16,6 +16,10 @@ import {
   Img,
 } from "./InfoElements";
 
+const goToTop = () => {
+  window.scrollTo(0, 0);
+};
+
 const InfoSection = ({
   lightBg,
   id,
@@ -32,6 +36,7 @@ const InfoSection = ({
   dark2,
   img,
   toLink,
+  newPage,
 }) => {
   return (
     <>
@@ -54,6 +59,8 @@ const InfoSection = ({
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
                     dark2={dark2 ? 1 : 0}
+                    onClick={goToTop}
+                    target={newPage ? "_blank" : false}
                   >
                     {buttonLabel}
                   </Button>

@@ -1,5 +1,6 @@
 export const homeObjOne = {
   id: "about",
+  newPage: true,
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -13,11 +14,12 @@ export const homeObjOne = {
   primary: false,
   darkText: true,
   img: require("../../images/about.svg").default,
-  toLink: "/cv",
+  toLink: "https://www.canva.com/design/DAFhAx_xiaY/view",
 };
 
 export const homeObjTwo = {
   id: "coffee",
+  newPage: false,
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
