@@ -62,7 +62,7 @@ const AboutSection = ({
               <TextWrapper>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Wrapper>
-                  <Text>2019 - Present</Text>
+                  <Text>2021 - Present</Text>
                   <Text>Digital Designer</Text>
                   <Text>Freelance</Text>
                 </Wrapper>
@@ -72,14 +72,14 @@ const AboutSection = ({
                   <Text>Jobspire</Text>
                 </Wrapper>
                 <Wrapper id="grey">
-                  <GreyText>2022 - 2023</GreyText>
-                  <GreyText>UX/UI designer</GreyText>
-                  <GreyText>Blixt & Dunder</GreyText>
-                </Wrapper>
-                <Wrapper id="grey">
                   <GreyText>2023</GreyText>
                   <GreyText>UX designer</GreyText>
                   <GreyText>AnnóAnno</GreyText>
+                </Wrapper>
+                <Wrapper id="grey">
+                  <GreyText>2022 - 2023</GreyText>
+                  <GreyText>UX/UI designer</GreyText>
+                  <GreyText>Blixt & Dunder</GreyText>
                 </Wrapper>
                 <Wrapper>
                   <GreyText>2021-2022</GreyText>
