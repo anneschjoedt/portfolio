@@ -75,7 +75,9 @@ const Navbar = ({ toggle }) => {
               </CVLink>
             </NavItem>
             <NavBtn>
-              <NavBtnLink to="/contact">Contact</NavBtnLink>
+              <NavBtnLink onClick={goToTop} to="/contact">
+                Contact
+              </NavBtnLink>
             </NavBtn>
             <SocialIconLink
               href="//www.linkedin.com/in/anneschjoedt/"
