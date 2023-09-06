@@ -12,6 +12,7 @@ import Jobspire from "../components/Jobspire/JobspireCard";
 import AnnoAnno from "../components/AnnoAnno/AnnoAnnoCard";
 import Aben from "../components/Aben/AbenCard";
 import SleepersCard from "../components/Sleepers/SleepersCard";
+import CarolineCard from "../components/Caroline/CarolineCard"
 import { thumbnailObjOne } from "../components/Sleepers/SleepersCard/Data";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
+      <CarolineCard />
       <SleepersCard {...thumbnailObjOne} />
       <Jobspire />
       <AnnoAnno />
