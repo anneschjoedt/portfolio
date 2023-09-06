@@ -7,14 +7,14 @@ export const homeObjOne = {
   topLine: "About me",
   headLine: "Efficient and intuitive design",
   description:
-    "In my work designing user interfaces, I emphasize on creating an efficient and intuitive design. Since I myself have worked with frontend development on various projects, I always try to keep the development part in mind when I design. In this way, the handover to the developer is as easy and smooth as possible - and the design becomes a reality.",
-  buttonLabel: "View my CV",
+    "In my work designing web experiences, I emphasize on creating an efficient and intuitive design. I always work in close collaboration with my clients in order to meet the their needs and requirements.",
+  buttonLabel: "View my recent work",
   alt: "Anne",
   dark: false,
   primary: false,
   darkText: true,
-  img: require("../../images/about.svg").default,
-  toLink: "https://www.canva.com/design/DAFhAx_xiaY/view",
+  // img: require("../../images/hero-img").default,
+  toLink: "/sleepers",
 };
 
 export const homeObjTwo = {

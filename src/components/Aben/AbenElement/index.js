@@ -75,17 +75,17 @@ const AbenElement = ({
               onClick={goToTop}
               arial-label="Previous project"
             >
-              Previous project
+              AnnoAnno
             </NextProjectLink>
             <NextProjectLink onClick={scrollToTop} arial-label="Next project">
               Scroll to top
             </NextProjectLink>
             <NextProjectLink
-              to="/jobspire"
+              to="/sleepers"
               onClick={goToTop}
               arial-label="Next project"
             >
-              Next project
+              Sleepers
             </NextProjectLink>
           </LinkWrap>
         </InfoWrapper>

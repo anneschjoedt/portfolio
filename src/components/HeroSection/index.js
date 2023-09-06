@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroContent>
-        <HeroH1>DIGITAL DESIGNER</HeroH1>
+        <HeroH1>WEB DESIGNER</HeroH1>
         <HeroP>
           I COLLABORATE WITH A VARIETY OF BRANDS, COMPANIES AND AGENCIES TO
           CREATE TAILOR-MADE SOLUTIONS

@@ -43,6 +43,10 @@ const Navbar = ({ toggle }) => {
     scroll.scrollTo(734);
   };
 
+  const goToAbout = () => {
+    scroll.scrollTo(3470);
+  };
+
   return (
     <>
       <Nav>
@@ -60,19 +64,9 @@ const Navbar = ({ toggle }) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={goToTop} to="/about">
+              <NavLink onClick={goToAbout} to="/">
                 About
               </NavLink>
-            </NavItem>
-            <NavItem>
-              <CVLink
-                href="https://www.canva.com/design/DAFhAx_xiaY/view"
-                target="_blank"
-                arial-label="CV"
-              >
-                {" "}
-                CV
-              </CVLink>
             </NavItem>
             <NavBtn>
               <NavBtnLink onClick={goToTop} to="/contact">

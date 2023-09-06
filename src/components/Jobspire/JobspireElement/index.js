@@ -92,11 +92,11 @@ const JobspireElement = ({
           </Column>
           <LinkWrap>
             <NextProjectLink
-              to="/aben"
+              to="/sleepers"
               onClick={goToTop}
               arial-label="Previous project"
             >
-              Previous project
+              Sleepers
             </NextProjectLink>
             <NextProjectLink onClick={scrollToTop} arial-label="Next project">
               Scroll to top
@@ -106,7 +106,7 @@ const JobspireElement = ({
               onClick={goToTop}
               arial-label="Next project"
             >
-              Next project
+              AnnoAnno
             </NextProjectLink>
           </LinkWrap>
         </InfoWrapper>

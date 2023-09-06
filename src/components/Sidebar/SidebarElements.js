@@ -47,14 +47,12 @@ export const SidebarMenu = styled.ul`
 `;
 
 export const SidebarLink = styled(LinkR)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 1.5rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
+
   color: #010606;
   cursor: pointer;
 
@@ -86,24 +84,6 @@ export const SidebarRoute = styled(LinkR)`
     border: 1px solid #010606;
     color: #010606;
     background: transparent;
-  }
-`;
-
-export const CVLink = styled.a`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  text-decoration: none;
-  list-style: none;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  color: #010606;
-  cursor: pointer;
-
-  &:hover {
-    color: #01bf71;
-    transition: 0.2s ease-in-out;
   }
 `;
 

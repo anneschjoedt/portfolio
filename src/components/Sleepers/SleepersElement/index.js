@@ -89,17 +89,17 @@ const SleepersElement = ({
               onClick={goToTop}
               arial-label="Previous project"
             >
-              Previous project
+              Åben
             </NextProjectLink>
             <NextProjectLink onClick={scrollToTop} arial-label="Next project">
               Scroll to top
             </NextProjectLink>
             <NextProjectLink
-              to="/annoanno"
+              to="/jobspire"
               onClick={goToTop}
               arial-label="Next project"
             >
-              Next project
+              Jobspire
             </NextProjectLink>
           </LinkWrap>
         </InfoWrapper>

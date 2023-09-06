@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   SidebarContainer,
   Icon,
@@ -16,6 +17,15 @@ const Sidebar = ({ isOpen, toggle }) => {
   const goToTop = () => {
     window.scrollTo(0, 0);
   };
+
+  const goToProjects = () => {
+    scroll.scrollTo(734);
+  };
+
+  const goToAbout = () => {
+    scroll.scrollTo(3470);
+  };
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -23,17 +33,12 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="/about" onClick={goToTop}>
+          <SidebarLink to="/" onClick={goToProjects}>
+            Work
+          </SidebarLink>
+          <SidebarLink to="/" onClick={goToAbout}>
             About
           </SidebarLink>
-          <CVLink
-            href="https://www.canva.com/design/DAFhAx_xiaY/view"
-            target="_blank"
-            arial-label="CV"
-          >
-            {" "}
-            CV
-          </CVLink>
           <SocialIconLink
             href="//www.linkedin.com/in/anneschjoedt/"
             target="_blank"

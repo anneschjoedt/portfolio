@@ -89,7 +89,7 @@ const AnnoAnnoElement = ({
               onClick={goToTop}
               arial-label="Previous project"
             >
-              Previous project
+              Jobspire
             </NextProjectLink>
             <NextProjectLink onClick={scrollToTop} arial-label="Next project">
               Scroll to top
@@ -99,7 +99,7 @@ const AnnoAnnoElement = ({
               onClick={goToTop}
               arial-label="Next project"
             >
-              Next project
+              Åben
             </NextProjectLink>
           </LinkWrap>
         </InfoWrapper>

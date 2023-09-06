@@ -7,6 +7,6 @@ export const RecommendObjOne = {
   headLine:
     '"In addition to her technical skills, Anne is a team player and is always willing to go the extra mile to ensure that her work meets the highest standards."',
   description: "Teresa Schilder-Knudsen, Blixt & Dunder",
-  alt: "Tine",
+  alt: "recommendation",
   darkText: false,
 };
