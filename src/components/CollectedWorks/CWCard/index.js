@@ -26,14 +26,14 @@ const CW = () => {
         onMouseLeave={onLeave}
         href="//www.collectedwork.dk/"
         target="_blank"
-        arial-label="Kolding Designskole - Collected Works"
+        arial-label="Kolding Designskole"
       >
         {hover ? (
           <ButtonLink href="//www.collectedwork.dk/"
           target="_blank"
-          arial-label="Kolding Designskole - Collected Works">
+          arial-label="Kolding Designskole">
             <ServiceTextWrap>
-              <ServicesH2>Kolding Designskole - Collected Works</ServicesH2>
+              <ServicesH2>Kolding Designskole</ServicesH2>
               <ServicesP>Webdevelopment</ServicesP>
             </ServiceTextWrap>
           </ButtonLink>
