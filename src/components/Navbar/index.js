@@ -32,7 +32,7 @@ const Navbar = ({ toggle }) => {
   };
 
   const goToAbout = () => {
-    scroll.scrollTo(4000);
+    scroll.scrollTo(4600);
   };
 
   return (
