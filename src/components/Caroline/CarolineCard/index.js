@@ -34,7 +34,7 @@ const Caro = () => {
           arial-label="Aarhus Modermaerkeklinik">
             <ServiceTextWrap>
               <ServicesH2>Aarhus Modermærkeklinik</ServicesH2>
-              <ServicesP>Webdevelopment</ServicesP>
+              <ServicesP>Webdesign & Wordpress</ServicesP>
             </ServiceTextWrap>
           </ButtonLink>
         ) : null}

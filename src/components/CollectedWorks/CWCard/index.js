@@ -34,7 +34,7 @@ const CW = () => {
           arial-label="Kolding Designskole">
             <ServiceTextWrap>
               <ServicesH2>Kolding Designskole</ServicesH2>
-              <ServicesP>Webdevelopment</ServicesP>
+              <ServicesP>Webdesign & webdevelopment</ServicesP>
             </ServiceTextWrap>
           </ButtonLink>
         ) : null}
