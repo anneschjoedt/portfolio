@@ -16,27 +16,16 @@ import {
   ImgWrap,
   Img,
   ProjectLink,
-  NextProjectLink,
-  LinkWrap,
 } from "./InfoElements";
 
 const SleepersElement = ({
   lightBg,
   projectTitle,
   deliverable1,
-  deliverable2,
-  deliverable3,
   darkText,
   year,
   alt,
 }) => {
-  const goToTop = () => {
-    window.scrollTo(0, 0);
-  };
-
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
 
   return (
     <>
