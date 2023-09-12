@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import AnnoAnnoElement from "../components/AnnoAnno/AnnoAnnoElement";
+import ProjectsFooter from "../components/ProjectsFooter";
 
 const AnnoAnnoProject = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const AnnoAnnoProject = () => {
       <Navbar toggle={toggle} />
       <AnnoAnnoHeroSection />
       <AnnoAnnoElement {...homeObjTwo} />
+      <ProjectsFooter/>
       <Footer />
     </>
   );

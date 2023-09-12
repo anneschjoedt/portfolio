@@ -8,12 +8,11 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 700px;
+  height: 600px;
   width: 100%;
   z-index: -1;
   background: fixed;
   background-position: center;
-  margin-bottom: 150px;
 
   @media screen and (max-width: 480px) {
     height: 600px;

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import JobspireElement from "../components/Jobspire/JobspireElement";
+import ProjectsFooter from "../components/ProjectsFooter";
 
 const JobspireProject = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const JobspireProject = () => {
       <Navbar toggle={toggle} />
       <JobspireHeroSection />
       <JobspireElement {...homeObjTwo} />
+      <ProjectsFooter/>
       <Footer />
     </>
   );

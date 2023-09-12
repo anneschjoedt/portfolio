@@ -83,25 +83,6 @@ const SleepersElement = ({
               </video>
             </Column2>
           </InfoRow>
-          <LinkWrap>
-            <NextProjectLink
-              to="/aben"
-              onClick={goToTop}
-              arial-label="Previous project"
-            >
-              Åben
-            </NextProjectLink>
-            <NextProjectLink onClick={scrollToTop} arial-label="Next project">
-              Scroll to top
-            </NextProjectLink>
-            <NextProjectLink
-              to="/jobspire"
-              onClick={goToTop}
-              arial-label="Next project"
-            >
-              Jobspire
-            </NextProjectLink>
-          </LinkWrap>
         </InfoWrapper>
       </InfoContainer>
     </>

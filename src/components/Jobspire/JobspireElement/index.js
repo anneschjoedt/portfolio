@@ -90,25 +90,6 @@ const JobspireElement = ({
           <Column>
             <Img src={img4} alt={alt} />
           </Column>
-          <LinkWrap>
-            <NextProjectLink
-              to="/sleepers"
-              onClick={goToTop}
-              arial-label="Previous project"
-            >
-              Sleepers
-            </NextProjectLink>
-            <NextProjectLink onClick={scrollToTop} arial-label="Next project">
-              Scroll to top
-            </NextProjectLink>
-            <NextProjectLink
-              to="/annoanno"
-              onClick={goToTop}
-              arial-label="Next project"
-            >
-              AnnoAnno
-            </NextProjectLink>
-          </LinkWrap>
         </InfoWrapper>
       </InfoContainer>
     </>

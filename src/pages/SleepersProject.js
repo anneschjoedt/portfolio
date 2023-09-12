@@ -5,6 +5,7 @@ import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import SleepersElement from "../components/Sleepers/SleepersElement";
 import SleepersHeroSection from "../components/Sleepers/SleepersHeroSection";
+import ProjectsFooter from "../components/ProjectsFooter";
 
 const SleepersProject = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const SleepersProject = () => {
       <Navbar toggle={toggle} />
       <SleepersHeroSection />
       <SleepersElement {...homeObjTwo} />
+      <ProjectsFooter/>
       <Footer />
     </>
   );

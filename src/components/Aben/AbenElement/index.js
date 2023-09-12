@@ -69,25 +69,6 @@ const AbenElement = ({
               </ImgWrap>
             </Column2>
           </InfoRow>
-          <LinkWrap>
-            <NextProjectLink
-              to="/annoanno"
-              onClick={goToTop}
-              arial-label="Previous project"
-            >
-              AnnoAnno
-            </NextProjectLink>
-            <NextProjectLink onClick={scrollToTop} arial-label="Next project">
-              Scroll to top
-            </NextProjectLink>
-            <NextProjectLink
-              to="/sleepers"
-              onClick={goToTop}
-              arial-label="Next project"
-            >
-              Sleepers
-            </NextProjectLink>
-          </LinkWrap>
         </InfoWrapper>
       </InfoContainer>
     </>

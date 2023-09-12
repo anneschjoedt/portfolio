@@ -83,25 +83,6 @@ const AnnoAnnoElement = ({
               </ImgWrap>
             </Column2>
           </InfoRow>
-          <LinkWrap>
-            <NextProjectLink
-              to="/jobspire"
-              onClick={goToTop}
-              arial-label="Previous project"
-            >
-              Jobspire
-            </NextProjectLink>
-            <NextProjectLink onClick={scrollToTop} arial-label="Next project">
-              Scroll to top
-            </NextProjectLink>
-            <NextProjectLink
-              to="/aben"
-              onClick={goToTop}
-              arial-label="Next project"
-            >
-              Åben
-            </NextProjectLink>
-          </LinkWrap>
         </InfoWrapper>
       </InfoContainer>
     </>

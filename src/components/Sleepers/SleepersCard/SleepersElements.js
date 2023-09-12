@@ -48,7 +48,6 @@ export const ServicesCard = styled(Link)`
   background-size: cover;
   height: 469px;
   width: 750px;
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
   transition: all 0.2s ease-in-out;
   overflow: no;
   text-decoration: none;

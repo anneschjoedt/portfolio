@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 import AbenElement from "../components/Aben/AbenElement";
+import ProjectsFooter from "../components/ProjectsFooter";
 
 const AbenProject = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ const AbenProject = () => {
       <Navbar toggle={toggle} />
       <AbenHeroSection />
       <AbenElement {...homeObjTwo} />
+      <ProjectsFooter/>
       <Footer />
     </>
   );
