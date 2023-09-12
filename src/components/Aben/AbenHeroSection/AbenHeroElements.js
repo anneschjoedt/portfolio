@@ -100,7 +100,7 @@ export const ImgWrap = styled.div`
   align-items: flex-end;
 `;
 
-export const Img = styled.img`
+export const Img1 = styled.img`
   padding-right: 0;
   @media screen and (max-width: 768px) {
     height: 150px;
@@ -108,5 +108,16 @@ export const Img = styled.img`
 
   @media screen and (max-width: 480px) {
     height: 120px;
+  }
+`;
+
+export const Img = styled.img`
+  padding-right: 0;
+  @media screen and (max-width: 768px) {
+    height: 150px;
+  }
+
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 `;
