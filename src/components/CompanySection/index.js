@@ -8,6 +8,7 @@ import Icon5 from "../../images/logo/folketinget.png";
 import Icon6 from "../../images/aben/days-logo.webp";
 import Icon7 from "../../images/aben/o-logo.webp";
 import Icon8 from "../../images/sleepers/sleepers-logo.svg";
+import Icon9 from "../../images/logo/logo-dk.jpeg";
 
 import {
   CompanyContainer,
@@ -30,6 +31,7 @@ const CompanySection = () => {
         <CompanyIcon src={Icon3} />
         <CompanyIcon src={Icon5} />
         <CompanyIcon src={Icon8} />
+        <CompanyIcon src={Icon9} />
       </CompanyWrapper>
     </CompanyContainer>
   );

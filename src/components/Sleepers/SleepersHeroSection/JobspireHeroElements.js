@@ -3,7 +3,6 @@ import image from "../../../images/jobspire/jobspire.svg";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const HeroContainer = styled.div`
-  background: #f6f6f6;
   display: flex;
   justify-content: center;
   align-items: center;
