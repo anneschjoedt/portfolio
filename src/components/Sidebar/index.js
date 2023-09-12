@@ -19,11 +19,11 @@ const Sidebar = ({ isOpen, toggle }) => {
   };
 
   const goToProjects = () => {
-    scroll.scrollTo(734);
+    scroll.scrollTo(470);
   };
 
   const goToAbout = () => {
-    scroll.scrollTo(3470);
+    scroll.scrollTo(2600);
   };
 
   return (
