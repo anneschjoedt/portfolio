@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  padding: 30px 30px 0 30px;
   height: 800px;
   max-width: 100%;
   z-index: -1;
@@ -14,7 +14,7 @@ export const HeroContainer = styled.div`
   background-position: center;
 
   @media screen and (max-width: 480px) {
-    height: 600px;
+    height: 500px;
   }
 `;
 
@@ -23,7 +23,7 @@ export const HeroContent = styled.div`
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  padding: 8px 24px;
+  padding: 0px 24px;
   flex-direction: column;
   z-index: -1;
   position: fixed;
