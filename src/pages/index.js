@@ -28,12 +28,12 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <CWCard/>
-      <CarolineCard />
       <SleepersCard {...thumbnailObjOne} />
       <Jobspire />
       <AnnoAnno />
       <Aben />
+      <CWCard/>
+      <CarolineCard />
       <CompanySection />
       <InfoSection {...homeObjOne} />
       <RecommendSection {...RecommendObjOne} />
