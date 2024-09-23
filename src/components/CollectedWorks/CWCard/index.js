@@ -24,12 +24,12 @@ const CW = () => {
       <ServicesCard
         onMouseEnter={onHover}
         onMouseLeave={onLeave}
-        href="//www.collectedwork.dk/"
+        href="https://spectacular-kulfi-ec6a84.netlify.app/"
         target="_blank"
         arial-label="Kolding Designskole"
       >
         {hover ? (
-          <ButtonLink href="//www.collectedwork.dk/"
+          <ButtonLink href="https://spectacular-kulfi-ec6a84.netlify.app/"
           target="_blank"
           arial-label="Kolding Designskole">
             <ServiceTextWrap>
